@@ -1,0 +1,143 @@
+header {
+    background: #00aeef;
+    height: 70px;
+}
+.container {
+    max-width: 94%;
+    margin: 0 auto;
+}
+.head-logo {
+    position: relative;
+    z-index: 2;
+    display: block;
+    overflow: hidden;
+    float: left;
+    margin-right: 1em;
+    height: 50px;
+    padding: 20px 0;
+}
+.head-logo img {
+    height: 30px;
+    max-width: none
+}
+
+/*------------------------------------- Header*/
+
+#top {
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#mid {
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.atas {
+    text-align: center;
+    margin-top: 20px;
+}
+.rp {
+    font-family: sans-serif;
+    font-size: 27px;
+}
+.rp-kanan {
+    background-color: #fff7c2;
+}
+.penting {
+    background-color: #fff7c2;
+    font-size: 14px; 
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.keterangan {
+    width: 100%;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 8px;
+}
+.keterangan .up {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.keterangan .bott {
+    padding-bottom: 10px;
+}
+.keterangan .kanan {
+    text-align: right;
+    padding-right: 18px;
+}
+.keterangan .kiri {
+    text-align: left;
+    padding-left: 18px;
+}
+.tf {
+    margin-top: 20px;
+    font-size: 15px;
+}
+.bni {
+    width: 124px;
+    height: 39.05px;
+}
+.bank {
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #999999;
+    margin-top: 10px;
+
+}
+.transfer {
+    background-color: whitesmoke;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #999999;
+    padding: 6px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.tmbl {
+    width: 100%;
+    align-content: center;
+}
+#share-fb {
+    background-color: #263961;
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+}
+#share-wa {
+    background-color: #25d366;
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding-top: 10px; 
+    padding-bottom: 10px;
+}
+.box {
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 20px;
+}
+.box :hover {
+    background-color: deepskyblue;
+}
+.thumb {
+    width: 160px;
+    height: 85.2px;
+}

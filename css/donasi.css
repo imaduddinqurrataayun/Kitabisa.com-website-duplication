@@ -1,0 +1,230 @@
+header {
+  background: #00aeef;
+  height: 70px;
+}
+.container {
+  max-width: 94%;
+  margin: 0 auto;
+}
+.head-logo {
+  position: relative;
+  z-index: 2;
+  display: block;
+  overflow: hidden;
+  float: left;
+  margin-right: 1em;
+  height: 50px;
+  padding: 20px 0;
+}
+.head-logo img {
+  height: 30px;
+  max-width: none
+}
+/*---------------------------------------- Header*/
+.fundraiser {
+  text-align: left;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 12px;
+  width: 100%;
+  padding: 25px;
+}
+.btn-fundraiser {
+  padding: 6px;
+  background-color: deepskyblue;
+  color: white;
+  font-family: helvetica;
+  font-style: bold;
+  border: none;
+  border-radius: 5px;
+}
+.logo-org {
+  border-radius: 50%;
+}
+.project-short-story {
+  font-size: 23px;
+  color: dimgray;
+}
+.project-cover {
+  min-height: 256.5px;
+}
+.tombol {
+  color: white;
+  width: 100%;
+  margin: 3px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-family: helvetica;
+  font-weight: bold;
+  font-size: 17px;
+}
+.tanggal {
+  font-weight: bold;
+}
+.target .deadline {
+  text-align: right;
+  padding-right: 0px;
+}
+#btn-donasi {
+  background-color: #cc0052;
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+#btn-share {
+  background-color: #000099;
+}
+#btn-donasi :hover {
+  background-color: #99003d;
+}
+#btn-share :hover{
+  background-color: midnightblue;
+}
+.nama-org {
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+}
+.akun-verified {
+  color: dimgray;
+  font-size: 12px;
+}
+#navigation {
+  width: 100%;
+}
+#nav-1 {
+  border: none;
+  margin: 2px;
+  margin-left: 120px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-left: 50px;
+  color: black;
+  background-color: white;
+  width: 100%;
+}
+#nav-1 :hover {
+  border-bottom-color: blue;
+  border-bottom: solid;
+  color: steelblue;
+}
+#headline { ;
+  padding-bottom: 80px;
+  padding-top: 20px;
+}
+#main {
+  background-color: white;
+}
+.update {
+  text-align: center;
+  padding: 15px;
+  margin: 30px;
+  margin-left: 0px;
+  border: none;
+  border-radius: 5px;
+  background-color: aliceblue;
+  width: 100%;
+}
+.btn-update {
+  color: white;
+  background-color: deepskyblue;
+  margin-left: 10px;
+  border: none;
+  padding: 8px;
+  border-radius: 5px;
+}
+.disclaimer {
+  font-size: 12px;
+  font-family: sans-serif;
+  width: 105;
+  background-color: whitesmoke;
+  padding: 35px 15px 35px 15px;
+  margin: 20px;
+  margin-left: 0px;
+  border-radius: 5px;
+}
+.buat-hlmn {
+  border: none;
+  border-radius: 5px;
+  background-color: gainsboro;
+  padding: 30px;
+  margin: 30px;
+  margin-left: 0px;
+  width: 100%;
+}
+.btn-buat-hlmn {
+  color: white;
+  margin-right: 5px;
+  background-color: deepskyblue;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin-right: 0px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.donatur {
+  margin-top: 40px;
+}
+.urut {
+  color: black;
+  border-bottom: solid;
+  border-bottom-color: whitesmoke;
+}
+.donatur .urut :onclick {
+  border-bottom-style: solid;
+  border-bottom-color: deepskyblue;
+}
+.img-donatur {
+  border-radius: 50%;
+  padding-top: 2px;
+}
+.waktu {
+  font-size: 12px;
+  color: dimgray;
+}
+/*.donatur-komen table tr {
+  border: solid;
+  padding-top: 2px;
+  padding-left: 5px;
+}*/
+.tabel-donatur {
+  margin-top: 20px;
+}
+.btn-showmore {
+  color: white;
+  width: 100%;
+  background-color: deepskyblue;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-top: 20px;
+}
+/*-------------------------------------------- footer*/
+#top-footer {
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#bottom-footer{
+    padding: 50px 0;
+}
+.sosialmedia {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.footer-list-title {
+  color: deepskyblue;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.footer-list {
+  list-style-type: none;
+  margin-left: -39px;
+  padding-bottom: 20px;
+}

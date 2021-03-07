@@ -1,0 +1,269 @@
+.head-section{
+	background-color: transparent;
+	position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    max-width: none;
+    z-index: 5;
+    display: flex;
+    height: 88px;
+    padding: 20px 0px;
+}
+
+.head-logo{
+	width: 94%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin: 0px auto;
+}
+
+.body-background{
+	position: relative;
+    height: 800px;
+    background : url(hero-banner-zakat.png) center center / cover no-repeat;
+    background-repeat: no-repeat;
+    background-position: center center;
+ }   
+
+.body-section{
+ 	position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2) 100%, rgba(0, 0, 0, 0) 39%);
+ }
+
+.text-content{
+	display: block;
+    flex: 1 1 0%;
+}
+
+.container{
+	width: 94%;
+    max-width: 1020px;
+    margin: 0 auto;
+    display: flex;
+   	align-items: center;
+    height: 100%;
+}
+
+.text-24{
+	font-size: 24px;	
+}
+.text-16{
+    font-size: 16px;    
+}
+.text-18{
+    font-size: 18px;    
+}
+.text-14{
+    font-size: 14px;    
+}
+.text-48{
+	font-size: 48px;
+}
+.text-semibold {
+    font-weight: 600;
+}
+.text-normal {
+    font-weight: 400;
+}
+
+.no-mg-bottom{
+	margin-bottom: 0!important;
+}
+
+.no-mg-top{
+	margin-top: 0!important;
+}
+
+.text-slim{
+	font-weight: 400;
+}
+
+.hero-title{
+	margin-bottom: 0.6em;
+    text-shadow: rgba(0, 0, 0, 0.25) 0px 2px 5px;
+}
+
+.hero__green{
+    padding: 1em 4.5em;
+    margin: auto;
+}
+
+.btn--green{
+	background:#6bd34a;
+	color:#fff;
+}
+body{
+    background: #f2f3f4;
+}
+section{
+	padding: 50px 0;
+}
+.calculator-content {
+    margin-top: 120px;
+    flex: 1 1 0%;
+}
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cal-content{
+    background-color: white;
+    right: 0px;
+    bottom: -85px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 5px 1px;
+    border-radius: 5px;
+    width: 400px;
+    height: 407px;
+}
+.tab-content {
+    width: 100%;
+}
+.img-green{
+    margin-left: 90px;
+}
+.align-center {
+    text-align: center;
+}
+.container-section{
+    width: 94%;
+    max-width: 1020px;
+    margin: 0 auto;
+}
+.list-lembaga {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.list-lembaga li {
+    height: 97px;
+    display: flex;
+    position: relative;
+    max-width: 97px;
+    object-fit: contain;
+    flex-basis: calc(10%);
+    cursor: pointer;
+    margin: 7px;
+    flex-flow: row wrap;
+    border-radius: 2px;
+}
+li .img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(222, 222, 222);
+    border-image: initial;
+    border-radius: 4px;
+    padding: 7px;
+}
+.show{
+    display: block!important;
+}
+.campaign-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.campaign-container .flex-con{
+    width: 30.3333%;
+    padding: 15px 0 15px 10px;
+    display: flex;
+}
+.card-text-style{
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+    margin-left: 2px;
+    margin-bottom: 6px;
+}
+.card-imgs{
+    position: relative;
+    margin-left: 9px;
+    top: 0;
+    height: 16px;
+}
+.count-item{
+    display: inline-block;
+    font-size: 14px;
+    width: 50%;
+}
+.card-bar{
+    background: #da336b;
+    position: relative;
+    height: 3px;
+    width: 100%;
+    border-radius: 2px;
+}
+.count-stat{
+    position: relative;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+.nav-tabs {
+    border-bottom: 2px solid #33b40c;
+}
+
+.nav .nav-item a {
+    border: 0;
+    line-height: 60px;
+    padding: 0;
+    color: #000;
+}
+
+.nav .nav-item a.active {
+    border-bottom: 2px solid #33b40c !important;
+    color: #36b50f;
+    background-color: rgba(51,180,12,.12);
+}
+
+.nav .nav-item a i {
+    color: #36b50f;
+    padding-right: 10px;
+}
+.zakat-bg{
+    position: relative;
+    height: 400px;
+    margin-top: -2px;
+    background: url(bg-zakat.jpg) center center / cover no-repeat;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.zakat-video{
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 35px;
+    height: 0;
+    overflow: hidden;
+}
+#top-footer {
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.sosialmedia {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.footer-list-title {
+  color: deepskyblue;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.footer-list {
+  list-style-type: none;
+  margin-left: -39px;
+  padding-bottom: 20px;
+}

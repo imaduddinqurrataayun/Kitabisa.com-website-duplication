@@ -1,0 +1,109 @@
+header {
+    background: #00aeef;
+    height: 70px;
+}
+.container {
+    max-width: 94%;
+    margin: 0 auto;
+}
+.head-logo {
+	position: relative;
+    z-index: 2;
+    display: block;
+    overflow: hidden;
+    float: left;
+    margin-right: 1em;
+    height: 50px;
+    padding: 20px 0;
+}
+.head-logo img {
+	height: 30px;
+    max-width: none
+}
+/*------------------------------- Header*/
+#top {
+	background-color: white;
+	border-radius: 5px;
+	margin-top: 25px;
+	padding: 25px;
+}
+.thumb {
+	width: 70px;
+	height: 70px; 
+}
+#bottom {
+	background-color: white;
+	border-radius: 5px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	padding: 35px;
+}
+.jumlah {
+	width: 100%;
+	background-color: whitesmoke;
+	border-radius: 5px;
+	border-style: none;
+	padding: 15px 7px 15px 7px;
+}
+.gopay {
+	color: #8c8c8c;
+	background-color: aliceblue;
+	padding: 15px 4px 15px 4px;
+	border-radius: 5px;
+	font-family: sans-serif;
+	font-size: 12px;
+	font-weight: lighter;
+	text-align: center;
+	margin-top: 25px;
+}
+#pembayaran {
+	text-align: left;
+	align-items: center;
+	width: 100%;
+}
+.masuk {
+	text-align: center;
+	margin-top: 20px;
+}
+.dropdown-menu {
+	width: 100%;
+}
+.form-control {
+	width: 100%;
+	margin-top: 25px;
+	border-radius: 5px;
+	border-style: solid;
+	border-color: #bfbfbf;
+	padding-left: 4px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+.anonim {
+	background-color: white;
+	font-size: 12px;
+	font-weight: lighter;
+}
+.form-check-input {
+	margin-top: 20px;
+	border-style: solid;
+	padding-right: 50px;
+}
+.ljt-bayar {
+	width: 100%;
+	background-color: #cc0052;
+	color: white;
+	font-family: sans-serif;
+	font-weight: bold;
+	padding-top: 13px;
+	padding-bottom: 13px;
+	margin-bottom: 30px;
+	border-radius: 5px;
+	border-style: none; 
+}
+.radio-wrap {
+    FLOAT: LEFT;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 0px;
+}
